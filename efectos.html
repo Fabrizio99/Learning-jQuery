@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        input{
+            outline: none;
+        }
+        #mouse{
+            width:20px;
+            height: 20px;
+            background-color: yellow;
+            opacity: 0.5;
+            border-radius: 50%;
+            border:2px solid black;
+            position: absolute;
+            display: none;
+        }
+        .container{
+            border: 1px solid black;
+        }
+        #prueba{
+            border: 1px solid black;
+            height: 300px;
+            line-height: 300px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <p class="texto">texto 1</p>
+    <p class="texto">texto 2</p>
+    <p class="texto">texto 3</p>
+    <div class="container">
+        <p>mensaje</p>
+        <div id="mouse">
+        </div>
+    </div>
+    <div id="prueba">
+        sss
+        
+    </div>
+    <input type="text"  id="inputField">
+    <p>Añada un enlace</p>
+    <input type="text" id="input">
+    <input type="button" value="Agregar" id="buttonAgregar">
+    <ul id="menu">
+        <li>
+            <a href="https://google.com">Google</a>
+        </li>
+        <li>
+            <a href="https://twitter.com">Twitter</a>
+        </li>
+        <li>
+            <a href="https://youtube.com">Youtube</a>
+        </li>
+    </ul>
+    <script src="JS/jquery-3.4.1.min.js"></script>
+    <script src="JS/scriptEfectos.js"></script>
+</body>
+</html>
